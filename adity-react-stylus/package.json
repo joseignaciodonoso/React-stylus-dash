@@ -1,0 +1,37 @@
+{
+  "name": "adity-react-stylus",
+  "version": "1.0.0",
+  "main": "./src/index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server .",
+    "build": "Webpack ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/runtime": "^7.20.1",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.3.0",
+    "css-loader": "^6.7.2",
+    "style-loader": "^3.3.1",
+    "stylus": "^0.59.0",
+    "stylus-loader": "^7.1.0",
+    "webpack": "^3.12.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^2.11.5"
+  },
+  "description": ""
+}
